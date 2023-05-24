@@ -1,0 +1,7 @@
+package com.sum.assignment_aisle.model.notesmodel
+
+data class DrinkingV1(
+    val id: Int,
+    val name: String,
+    val name_alias: String
+)
