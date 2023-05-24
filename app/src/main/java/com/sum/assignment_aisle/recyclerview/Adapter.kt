@@ -32,7 +32,7 @@ class MyAdapter(var invites: Invites, var likes: Likes): RecyclerView.Adapter<My
 
 
     override fun getItemCount(): Int {
-        return 0
+        return invites.profiles.size
     }
 
     class MyViewHolder( var itemBinding:RecyclerviewItemBinding ) :
